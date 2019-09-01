@@ -22,7 +22,7 @@ CREATE TABLE mark
     c_id INT NOT NULL,
     score INT NOT NULL,
     FOREIGN KEY(s_id) REFERENCES student(s_id),
-    FOREIGN KEY(c_id) REFERENCES course(c_id)
-    
+    FOREIGN KEY(c_id) REFERENCES course(c_id)  
 );
+
 
